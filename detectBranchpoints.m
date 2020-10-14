@@ -62,9 +62,9 @@ function [bw, inds, inds2, lut] = detectBranchpoints(skel, includeCrossings)
 % [~, inds1, inds2] = detectBranchpoints(bw, true);
 % hold on
 % [r, c] = ind2sub(size(bw), setdiff(inds1, inds2));
-% plot(c, r, 'r.', 'MarkerSize', 32)
+% plot(c, r, 'r.', 'MarkerSize', 24)
 % [r, c] = ind2sub(size(bw), inds2);
-% plot(c, r, 'b.', 'MarkerSize', 32)
+% plot(c, r, 'b.', 'MarkerSize', 24)
 % title(sprintf('red: T, Y Branchpoints\nblue: X, + Branchpoints'))
 % xlim([14 68]);
 % ylim([17 71])
